@@ -1,0 +1,46 @@
+{
+  "name": "community-starter-kit",
+  "version": "1.0.0",
+  "description": "Bot oriented GH project",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "probot run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "first-pr-merge": "github:behaviorbot/first-pr-merge",
+    "new-issue-welcome": "github:behaviorbot/new-issue-welcome",
+    "new-pr-welcome": "github:behaviorbot/new-pr-welcome",
+    "probot": "6.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Berkmann18/community-starter-kit.git"
+  },
+  "keywords": [
+    "probot",
+    "bot",
+    "github",
+    "welcome",
+    "community"
+  ],
+  "author": "Maximilian Berkmann <maxieberkmann@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Berkmann18/community-starter-kit/issues"
+  },
+  "homepage": "https://github.com/Berkmann18/community-starter-kit#readme",
+  "engines": {
+    "node": ">= 7.7.0",
+    "npm": ">= 4.0.0"
+  },
+  "probot": {
+    "plugins": [
+      "first-pr-merge",
+      "new-pr-welcome",
+      "new-issue-welcome"
+    ]
+  }
+}

@@ -1,10 +1,24 @@
 # welcome bot: A Probot App
 
-DESCRIPTION PLACEHOLDER
+A relavitely simple collection of bots powered by [behaviorbot](https://github.com/behaviorbot).
 
 ## What it does
 
-FEATURES PLACEHOLDER
+- Welcome contributors opening their first issue.
+
+_image here_
+
+- Welcome contributors for their first PR.
+
+_image here_
+
+- Congratulates contributors who are getting their first PR merged.
+
+_image here_
+
+- Request more info in regards to an issue or a PR.
+
+_image here_
 
 ## Getting started
 
